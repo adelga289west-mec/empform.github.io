@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: flex;
+          
+           
+
+        }
+        #employees{
+            margin: auto;
+            width: 51%;
+            min-height: 100vh;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(1, 63, 1);
+
+        }
+        #form{
+            width: 49%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: rgb(2, 108, 2);
+
+        }
+        input{
+            width: 80%;
+            height: 20px;
+            border-radius: 10px;
+        }
+        #title{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="form">
+        <h1 id="title">Employee Information Form</h1>
+        <br>
+        <br>
+    <input id="Fname" type="text" placeholder="Enter First Name">
+    <br>
+    <input id="Lname" type="text" placeholder="Enter Last Name">
+    <br>
+    <input id="Age" type="number" placeholder="Enter Age">
+    <br>
+    <input id="Address" type="text" placeholder="Enter Address">
+    <br>
+    <input id="City" type="text" placeholder="Enter City">
+    <br>
+    <input id="ZipCode" type="text" placeholder="Enter ZipCode">
+    <br>
+    <input id="State" type="text" placeholder="Enter State">
+    <br>
+    <input id="Country" type="text" placeholder="Enter Country">
+    <br>
+    <input id="Title" type="text" placeholder="Enter Job Title">
+    <br>
+    <input id="Dept" type="text" placeholder="Enter Department">
+    <br>
+    <input id="Salary" type="text" placeholder="Enter Salary">
+    <br>
+    <input id="Service" type="number" placeholder="Enter Years of Service">
+    <br>
+    <button id="btn" type="submit">Submit</button>
+    </div>
+
+    <div id="employees">
+
+    </div>
+    
+    <script src="job2.js"></script>
+</body>
+</html>
